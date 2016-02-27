@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced Mini-store</title>
+	<style type="text/css">
+body{
+	color:#3f312e;
+	background:url('a.jpg');
+	font:14px Helvetica,Arial,Sans-serif;
+}
+
+a{
+	color: #4f4f4f;
+}
+
+
+
+
+#header{
+	width:960px;
+	min-height: 150px;
+	margin: 0 auto;
+}
+
+#navigation{
+	width:960px;
+	margin: 0 auto;
+	position: relative;
+	top: 4px;
+
+}
+#navigation ul{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+#navigation ul li{
+	display: inline;
+	margin-right: 3px;
+}
+
+#navigation ul li a{
+	background :#fbe49b;
+	text-decoration: none;
+	padding :10px 10px 6px 10px;
+	text-transform: uppercase;
+	border-left: 1px solid #e4bc3f;
+	border-right: 1px solid #e4bc3f;
+	background-color: #fbe49b;
+
+
+}
+
+#navigation ul li .current_page_item a,#navigation ul li a:hover{
+	color:#3f312e;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background :#fff;
+}
+
+
+
+
+#container{
+	overflow: auto;
+	width:960px;
+	margin: 0 auto;
+	padding: 10px;
+	background :#000;
+}
+#content{
+	width: 960px;
+	min-height: 400px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+#contentleft{
+	width: 580px;
+	float: left;
+	margin-right: 20px;
+padding:20px;
+}
+#contentleft h1{
+	font-size: 24px;
+	margin-top: 0;
+}
+
+
+
+#sidebar{
+	width:280px;
+	float:left;
+	padding: 20px;
+}
+
+.sidebar-element{
+	overflow: auto;
+	margin-top: 15px;
+}
+#sidebar h3{
+	color: #fff;
+	background-color: #53777a;
+	padding: 7px 10px ;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#sidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar ul li{
+	margin: 0 0 7px 0;
+
+}
+
+#footer{
+	width:960;
+	margin: 0 auto;
+text-align: center;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<a href=""><img src="a.png">
+
+
+
+</div><!--header-->
+<div id="navigation">
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+</div><!--navigation-->
+<div id="container">
+<div id="content">
+<div id="contentleft">
+<h1>Welcome To My Website</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum massa eget fringilla lacinia. Aliquam laoreet dui orci, nec faucibus augue pulvinar id. Nunc vitae mi ullamcorper diam pellentesque vehicula. Nullam nunc lacus, pharetra vel euismod vitae, fermentum eget dolor</p>
+</div><!--ContentLefit-->
+<div id="sidebar">
+<div class="sidebar-element">
+<h3>About Me</h3>
+<p>
+	Praesent sed consequat mauris. Aenean ultricies massa lacus, at egestas mauris mollis eget. Aliquam sit amet lectus ex. Sed porta posuere mi
+</p>
+</div>
+<div class="sidebar-element">
+<h3>Unordered List</h3>
+<ul>
+<li><a href="">List Item #1</a></li>
+<li><a href="">List Item #2</a></li>
+<li><a href="">List Item #3</a></li>
+
+
+</ul>
+</div>
+</div><!--sidebar-->
+</div><!--content-->
+</div><!--container-->
+<div id="footer">
+<p>&copy;2016 </p>
+</div><!--footer-->
+</body>
+</html>
